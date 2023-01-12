@@ -1,5 +1,4 @@
 <template>
-  <header>
     <div id="navbar">
       <div id="logo">
         <a href="/" class="logo">Alexandre Velia</a>
@@ -11,7 +10,6 @@
         <RouterLink to="/blog"><span>Blog</span></RouterLink>
       </nav>
     </div>
-  </header>
 </template>
 
 <script>
@@ -22,12 +20,18 @@ export default {
 </script>
 
 <style scoped>
-  header{
-    padding-block: 1.8rem;
+  #navbar{
+
   }
   #logo{
     display: inline-block;
     margin-right: 1.8rem;
+  }
+  #logo a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
   }
   #navbar{
     display: flex;
