@@ -1,1 +1,65 @@
 @import './base.css';
+
+:root{
+    --base-font : 'Syne', sans-serif;
+    --gradient : linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(173,62,255,1) 100%);
+}
+html{
+    font-size: 100%;
+}
+body{
+    background: #fff;
+    font-family: var(--base-font);
+    font-size: 1rem;
+}
+
+header{
+    padding-block: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    max-width: 1401px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    background: var(--gradient);
+    border: none;
+    color: #000;
+    font-weight: 500;
+    padding: .8rem 1.2rem;
+    position: relative;
+}
+
+.button:before{
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 1px;
+    background: #fff;
+    transition: inset .3s ease;
+}
+
+.button:hover::before{
+    inset: 3px;
+}
+
+.button > span {
+    position: relative;
+    z-index: 1;
+}
