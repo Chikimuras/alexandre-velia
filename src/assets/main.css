@@ -1,1 +1,11 @@
 @import './base.css';
+
+:root{
+    --base-font : 'Syne', sans-serif;
+    --gradient : linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(173,62,255,1) 100%);
+}
+
+body{
+    background: #fff;
+    font-family: var(--base-font);
+}
