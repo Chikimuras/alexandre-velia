@@ -10,7 +10,7 @@ export default {
 
 <style scoped>
 #hero{
-  background: grey;
+  background: url("../assets/image 7.png") no-repeat center center;
   background-size: cover;
   padding-block: 5rem;
   width: 100%;

@@ -11,6 +11,7 @@ body{
     background: #fff;
     font-family: var(--base-font);
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 header{
@@ -37,6 +38,17 @@ h1{
     -webkit-text-fill-color: transparent;
 }
 
+h2{
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+}
+
 .button{
     background: var(--gradient);
     border: none;
@@ -52,7 +64,7 @@ h1{
     position: absolute;
     inset: 1px;
     background: #fff;
-    transition: inset .3s ease;
+    transition: inset .15s ease;
 }
 
 .button:hover::before{
@@ -62,4 +74,10 @@ h1{
 .button > span {
     position: relative;
     z-index: 1;
+}
+
+.pre-title__text{
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #979797;
 }
