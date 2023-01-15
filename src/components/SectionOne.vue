@@ -26,7 +26,4 @@ export default {
     margin-inline: auto;
     margin-bottom: 5rem;
   }
-  .pre-title {
-    margin: 0;
-  }
 </style>
