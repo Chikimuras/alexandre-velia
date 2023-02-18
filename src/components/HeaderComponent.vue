@@ -2,8 +2,7 @@
   <div id="header">
     <div class="intro-block">
       <h1 class="intro-lead-in">Développeur web full-stack</h1>
-      <p class="intro-text">De la conception jusqu'à la mise en production,
-        mon expertise et mon savoir-faire dans le domaine du web me permettra de vous accompagner dans chacun des processus de votre projet.</p>
+      <p class="intro-text">De la conception jusqu'à la mise en production, mon expertise et mon savoir-faire dans le domaine du web me permettront de vous accompagner dans chacun des processus de votre projet.</p>
       <a class="button" href="/portfolio"><span>En savoir +</span></a>
     </div>
   </div>
